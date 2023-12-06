@@ -11,11 +11,11 @@ import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
 const categories = [
-  "Medicine",
-  "Surgical Instrument",
-  "Skin Care",
-  "Hair Care",
-  "Ayurvedic",
+  "Historical stamp",
+  "Mordern stamps",
+  "British stamps",
+  "Pre independence stamps",
+  "Post independence stamp",
 ];
 
 const Products = ({ match }) => {
@@ -64,7 +64,7 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- INSTAMED" />
+          <MetaData title="Stamps" />
           <h2 className="productsHeading">Products</h2>
 
           <div className="products">

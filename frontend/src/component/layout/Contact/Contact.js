@@ -1,18 +1,3 @@
-// import React from "react";
-// import "./Contact.css";
-// import { Button } from "@material-ui/core";
-
-// const Contact = () => {
-//   return (
-//     <div className="contactContainer">
-//       <a className="mailBtn" href="mailto:contactinstamed@gmail.com">
-//         <Button>Contact: contactinstamed@gmail.com</Button>
-//       </a>
-//     </div>
-//   );
-// };
-
-// export default Contact;
 import React, { useState } from "react";
 import "./Contact.css";
 import { Button, TextField } from "@material-ui/core";
@@ -34,10 +19,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can use a service like EmailJS or set up a server to handle email sending
-    // For this example, I'll use a console log to show the data that would be sent
     console.log(formData);
-    // Here, you can implement the logic to send the email using the provided email address
   };
 
   return (

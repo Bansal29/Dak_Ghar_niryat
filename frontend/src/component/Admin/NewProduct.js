@@ -28,11 +28,11 @@ const NewProduct = ({ history }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Medicine",
-    "Surgical Instrument",
-    "Skin Care",
-    "Hair Care",
-    "Ayurvedic",
+    "Historical stamp",
+    "Mordern stamps",
+    "British stamps",
+    "Pre independence stamps",
+    "Post independence stamp",
   ];
 
   useEffect(() => {
